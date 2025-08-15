@@ -1,4 +1,4 @@
-name: Node.js CI
+name: bot
 
 on:
   push:
@@ -33,4 +33,4 @@ jobs:
     - name: Start the bot
       env:
         PORT: 8080
-      run: npm start
+      run: bot start
